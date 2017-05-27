@@ -1,0 +1,27 @@
+{
+  "name": "eostx",
+  "description": "Transaction serialization / deserialization library for the EOS blockchain.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha index.test.js",
+    "coverage": "istanbul cover _mocha -- -R spec index.test.js",
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eosjs/transact.git"
+  },
+  "dependencies": {
+    "bn.js": "^4.11.6",
+    "bytebuffer": "^5.0.1",
+    "eosjson": "https://github.com/eosjs/json.git"
+  },
+  "devDependencies": {
+    "coveralls": "^2.13.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.1",
+    "standard": "^10.0.2"
+  }
+}
