@@ -15,8 +15,7 @@
   },
   "dependencies": {
     "bn.js": "^4.11.6",
-    "bytebuffer": "^5.0.1",
-    "eosjson": "https://github.com/eosjs/json.git"
+    "bytebuffer": "^5.0.1"
   },
   "devDependencies": {
     "coveralls": "^2.13.1",
